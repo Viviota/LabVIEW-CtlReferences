@@ -20,27 +20,29 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="CtlReferences" Type="Packed Library">
+			<Item Name="CtlReferences_x32" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{121C2ED4-6AC2-4569-BBC0-860569C071DA}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CtlReferences</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4AF93350-8B9C-4C80-A3DF-411A731FD1F7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">CtlReferences_x32</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/CtlReferences</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Viviota/Builds/LabVIEW/CtlReferences_x32</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{FF384342-BB4B-4AF0-9E16-BCCEDF1EBB52}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1C7BF3C2-658E-4C9C-93B6-EB3F8C6FE8B6}</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CtlReferences.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CtlReferences/CtlReferences.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Viviota/Builds/LabVIEW/CtlReferences_x32/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/CtlReferences</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Viviota/Builds/LabVIEW/CtlReferences_x32</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7A68139D-4F9A-4635-94BC-5F8072168C80}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{067D6F16-BC1D-4E50-BF8D-54F7C83FFBAC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CtlReferences.lvlib</Property>
@@ -52,35 +54,37 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Viviota</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">CtlReferences</Property>
-				<Property Name="TgtF_internalName" Type="Str">CtlReferences</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Viviota</Property>
-				<Property Name="TgtF_productName" Type="Str">CtlReferences</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{3C6F6218-24C8-440D-9ADA-C3442593C372}</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CtlReferences_x32</Property>
+				<Property Name="TgtF_internalName" Type="Str">CtlReferences_x32</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Viviota</Property>
+				<Property Name="TgtF_productName" Type="Str">CtlReferences_x32</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0EAEF1E0-DB47-417C-89FB-603C329F9996}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CtlReferences.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CtlReferences_x64" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C02FB842-3B21-4E1B-BDD8-B31C5582089D}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{EAD18FA3-E538-4F65-AB36-194ACE473F76}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CtlReferences_x64</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/CtlReferences_x64</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Viviota/Builds/LabVIEW/CtlReferences_x64</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{85667E89-67E2-4E49-939A-36066A355720}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{775B0721-DCAB-4A18-8A47-D11839841E1A}</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CtlReferences.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CtlReferences_x64/CtlReferences.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Viviota/Builds/LabVIEW/CtlReferences_x64/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/CtlReferences_x64</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Viviota/Builds/LabVIEW/CtlReferences_x64</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{46C50325-AB4A-499B-A3EE-20734A0C44B5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B48985E-FAE2-4420-B166-65C38BE276A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CtlReferences.lvlib</Property>
@@ -92,11 +96,11 @@
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Viviota</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">CtlReferences</Property>
-				<Property Name="TgtF_internalName" Type="Str">CtlReferences</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Viviota</Property>
-				<Property Name="TgtF_productName" Type="Str">CtlReferences</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{13F6BF1B-4293-4407-BBFB-9C0188FFAB36}</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CtlReferences_x32</Property>
+				<Property Name="TgtF_internalName" Type="Str">CtlReferences_x32</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Viviota</Property>
+				<Property Name="TgtF_productName" Type="Str">CtlReferences_x32</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{161BB4A4-05E8-4617-80E4-45D4D55B4946}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CtlReferences.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
