@@ -13,20 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CtlReferences.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp">
-			<Item Name="CtlReferences.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/CtlReferences/CtlReferences.lvclass"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Helpers.lvlib" Type="Library" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/Helpers.lvlib"/>
-		</Item>
 		<Item Name="CtlReferences_API.lvlib" Type="Library" URL="../CtlReferences_API.lvlib"/>
-		<Item Name="LookupTable.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Viviota/shared/LookupTable.lvlibp">
-			<Item Name="API" Type="Folder"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Viviota/shared/LookupTable.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="ILookupTable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/LookupTable.lvlibp/LookupTable_v2/ILookupTable/ILookupTable.lvclass"/>
-			<Item Name="Lookup_VarBase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/LookupTable.lvlibp/LookupTable_v2/Lookup_VarBase/Lookup_VarBase.lvclass"/>
-			<Item Name="LookupTable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/LookupTable.lvlibp/LookupTable/LookupTable.lvclass"/>
-			<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Viviota/shared/LookupTable.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
