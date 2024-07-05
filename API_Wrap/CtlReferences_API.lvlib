@@ -8,22 +8,22 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="CtlReferences.lvlib" Type="Friended Library" URL="../CtlReferences.lvlib"/>
-		<Item Name="CtlReferences.lvlib:CtlReferences.lvclass" Type="Friended Library" URL="../CtlReferences/CtlReferences.lvclass"/>
+		<Item Name="CtlReferences.lvlib" Type="Friended Library" URL="../../CtlReferences.lvlib"/>
+		<Item Name="CtlReferences.lvlib:CtlReferences.lvclass" Type="Friended Library" URL="../../CtlReferences/CtlReferences.lvclass"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="Example1.vi" Type="VI" URL="../Examples/Example1.vi"/>
+		<Item Name="Example1.vi" Type="VI" URL="../../Examples/Example1.vi"/>
 	</Item>
-	<Item Name="CloseCtlLookup.vi" Type="VI" URL="../CtlReferences/API_Wrap/CloseCtlLookup.vi"/>
-	<Item Name="GetControl.vim" Type="VI" URL="../CtlReferences/API/GetControl.vim"/>
-	<Item Name="GetControlOwningPanel.vi" Type="VI" URL="../CtlReferences/API_Wrap/GetControlOwningPanel.vi"/>
-	<Item Name="GetControlSubPanelVI.vi" Type="VI" URL="../CtlReferences/API_Wrap/GetControlSubPanelVI.vi"/>
-	<Item Name="GetControlValue.vim" Type="VI" URL="../CtlReferences/GetControlValue/GetControlValue.vim"/>
-	<Item Name="InitCtlLookup.vim" Type="VI" URL="../CtlReferences/API_Wrap/InitCtlLookup.vim"/>
-	<Item Name="SetControlDisabled.vi" Type="VI" URL="../CtlReferences/API_Wrap/SetControlDisabled.vi"/>
-	<Item Name="SetControlEnableSwitch.vi" Type="VI" URL="../CtlReferences/API_Wrap/SetControlEnableSwitch.vi"/>
-	<Item Name="SetControlPaneDeferUpdates.vi" Type="VI" URL="../CtlReferences/API_Wrap/SetControlPaneDeferUpdates.vi"/>
-	<Item Name="SetControlToDefault.vi" Type="VI" URL="../CtlReferences/API_Wrap/SetControlToDefault.vi"/>
-	<Item Name="SetControlValue.vi" Type="VI" URL="../CtlReferences/API_Wrap/SetControlValue.vi"/>
-	<Item Name="SetControlVisible.vi" Type="VI" URL="../CtlReferences/API_Wrap/SetControlVisible.vi"/>
+	<Item Name="CloseCtlLookup.vi" Type="VI" URL="../CloseCtlLookup.vi"/>
+	<Item Name="GetControl.vim" Type="VI" URL="../GetControl.vim"/>
+	<Item Name="GetControlOwningPanel.vi" Type="VI" URL="../GetControlOwningPanel.vi"/>
+	<Item Name="GetControlSubPanelVI.vi" Type="VI" URL="../GetControlSubPanelVI.vi"/>
+	<Item Name="GetControlValue.vim" Type="VI" URL="../GetControlValue.vim"/>
+	<Item Name="InitCtlLookup.vim" Type="VI" URL="../InitCtlLookup.vim"/>
+	<Item Name="SetControlDisabled.vi" Type="VI" URL="../SetControlDisabled.vi"/>
+	<Item Name="SetControlEnableSwitch.vi" Type="VI" URL="../SetControlEnableSwitch.vi"/>
+	<Item Name="SetControlPaneDeferUpdates.vi" Type="VI" URL="../SetControlPaneDeferUpdates.vi"/>
+	<Item Name="SetControlToDefault.vi" Type="VI" URL="../SetControlToDefault.vi"/>
+	<Item Name="SetControlValue.vi" Type="VI" URL="../SetControlValue.vi"/>
+	<Item Name="SetControlVisible.vi" Type="VI" URL="../SetControlVisible.vi"/>
 </Library>
