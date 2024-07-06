@@ -14,6 +14,13 @@ There is a secondary (older) class that could be used which utilizes Variant Att
 
 There are no 3rd party dependencies.
 
+## Packed Library Support
+This library is built with PPL / Common-reuse patterns in mind.  It is split between a main library and the "API" library, which wraps functions from the main library.  Only the API library is used on the palettes.
+
+This library is distributed with PPLs (currently only for Windows).  However, in the based library they are unreferenced.
+
+I secondary "PPLAPIs" VIPM package is provided which will override the API library with one that references the PPLs.  This allows for easier PPL linking.
+
 ## Contributing
 
 1. Fork it!
@@ -22,7 +29,7 @@ There are no 3rd party dependencies.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-To contribute to this toolkit, you will need 32-bit LabVIEW 2020.
+To contribute to this toolkit, you will need LabVIEW 2020.
 
 ## Credits
 

@@ -13,7 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CtlReferences.lvlib" Type="Library" URL="../CtlReferences.lvlib"/>
+		<Item Name="CtlReferences.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp">
+			<Item Name="ctlRef_Maps.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/ctlRef_Maps/ctlRef_Maps.lvclass"/>
+			<Item Name="ctlRef_VAT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/CtlRef_VAT/ctlRef_VAT.lvclass"/>
+			<Item Name="CtlReferences.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/CtlReferences/CtlReferences.lvclass"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Viviota/shared/CtlReferences.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+		</Item>
 		<Item Name="CtlReferences_API.lvlib" Type="Library" URL="../API_Wrap/CtlReferences_API.lvlib"/>
 		<Item Name="Example1.vi" Type="VI" URL="../Examples/Example1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -25,7 +30,6 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
