@@ -11,9 +11,7 @@
 		<Item Name="CtlReferences.lvlib" Type="Friended Library" URL="../../CtlReferences.lvlib"/>
 		<Item Name="CtlReferences.lvlib:CtlReferences.lvclass" Type="Friended Library" URL="../../CtlReferences/CtlReferences.lvclass"/>
 	</Item>
-	<Item Name="Examples" Type="Folder">
-		<Item Name="Example1.vi" Type="VI" URL="../../Examples/Example1.vi"/>
-	</Item>
+	<Item Name="Examples" Type="Folder"/>
 	<Item Name="CloseCtlLookup.vi" Type="VI" URL="../CloseCtlLookup.vi"/>
 	<Item Name="GetControl.vim" Type="VI" URL="../GetControl.vim"/>
 	<Item Name="GetControlOwningPanel.vi" Type="VI" URL="../GetControlOwningPanel.vi"/>

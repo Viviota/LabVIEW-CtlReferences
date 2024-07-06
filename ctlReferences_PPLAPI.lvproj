@@ -15,6 +15,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CtlReferences.lvlib" Type="Library" URL="../CtlReferences.lvlib"/>
 		<Item Name="CtlReferences_API.lvlib" Type="Library" URL="../API_Wrap/CtlReferences_API.lvlib"/>
+		<Item Name="Example1.vi" Type="VI" URL="../Examples/Example1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
