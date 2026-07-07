@@ -20,6 +20,8 @@ This library is built with PPL / Common-reuse patterns in mind.  It is split bet
 This library is distributed with PPLs (currently only for Windows).  However, in the based library they are unreferenced.
 
 I secondary "PPLAPIs" VIPM package is provided which will override the API library with one that references the PPLs.  This allows for easier PPL linking.
+A "Debug" build of the PPLs is provided as well.  In a debug folder next to the normal ppl, and can be swapped out if needed.  The extension is also changed to .lvlibp.dbg (to avoid name colisions).
+
 
 ## Contributing
 
@@ -33,8 +35,8 @@ To contribute to this toolkit, you will need LabVIEW 2020.
 
 ## Credits
 
-CtlReferences LabVIEW library is an open source project maintained by Viviota and licensed by the MIT license
+CtlReferences LabVIEW library is an open source project maintained by Viviota and licensed by the BSD license
 
 ## License
 
-CtlReferences LabVIEW library is distributed under the open source MIT license providing everyone right to use and distribute both souce code and compiled versions of this toolkit. See LICENSE.md file for details.
+CtlReferences LabVIEW library is distributed under the open source BSD license providing everyone right to use and distribute both souce code and compiled versions of this toolkit. See LICENSE.md file for details.

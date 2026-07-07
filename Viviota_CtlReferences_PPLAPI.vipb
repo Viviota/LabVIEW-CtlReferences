@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-07-05 18:11:56" Modified_Date="2024-07-05 19:14:30" Creator="jyoun" Comments="" ID="9bef38a73e96a192ef87db51031816a6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-07-05 18:11:56" Modified_Date="2026-07-07 17:24:20" Creator="jyoun" Comments="" ID="27b6306d1433bf91944b45f387fa803a">
   <Library_General_Settings>
-    <Package_File_Name>Viviota_lib_Viviota_CtlReferences_PPLAPIs</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Package_File_Name>Viviota_lib_CtlReferences_PPLAPIs</Package_File_Name>
+    <Library_Version>1.1.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..\Builds\VIPM\VIV_CtlReferences</Library_Output_Folder>
+    <Library_Output_Folder>..\..\..\..\Builds\VIPM\VIV_CtlReferences</Library_Output_Folder>
     <Company_Name>Viviota</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>viviota_lib_viviota_ctlreferences &gt;=1.0.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>viviota_lib_ctlreferences &gt;=1.1.1.8</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -40,7 +40,9 @@ note: if the main ctlReferences library is updated, the order of operations shou
       <Copyright/>
       <Packager>Viviota</Packager>
       <URL/>
-      <Release_Notes>Initial Open Source Distribution</Release_Notes>
+      <Release_Notes>Initial Open Source Distribution
+
+v1.1.1.10 - Minor updates and version sync only.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -154,6 +156,9 @@ note: if the main ctlReferences library is updated, the order of operations shou
       </Exclusions>
       <Exclusions>
         <Path>LICENSE</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.CtlReferences.UserState</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
