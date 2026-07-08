@@ -19,8 +19,8 @@ This library is built with PPL / Common-reuse patterns in mind.  It is split bet
 
 This library is distributed with PPLs (currently only for Windows).  However, in the based library they are unreferenced.
 
-I secondary "PPLAPIs" VIPM package is provided which will override the API library with one that references the PPLs.  This allows for easier PPL linking.
-A "Debug" build of the PPLs is provided as well.  In a debug folder next to the normal ppl, and can be swapped out if needed.  The extension is also changed to .lvlibp.dbg (to avoid name colisions).
+A secondary "PPLAPIs" VIPM package is provided which will override the API library with one that references the PPLs.  This allows for easier PPL linking.
+A "Debug" build of the PPLs is provided as well in a debug folder next to the normal ppl, and can be swapped out if needed.  The extension is also changed to .lvlibp.dbg (to avoid name colisions).
 
 
 ## Contributing
